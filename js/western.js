@@ -151,31 +151,45 @@ westFinalsOne.addEventListener('click', () => {
         }})
 
         finalsTeamWest.addEventListener('click', () => {
-            message.classList.add('flex')
-            startConfetti();
             if (finalsTeamWest.classList.contains('phoenix')) {
                 winner.textContent = 'Phoenix Suns'
+                startConfetti();
+                message.classList.add('flex')
             }
             if (finalsTeamWest.classList.contains('nop')) {
                 winner.textContent = 'New Orleans Pelicans'
+                startConfetti();
+                message.classList.add('flex')
             }
             if (finalsTeamWest.classList.contains('dallas')) {
                 winner.textContent = 'Dallas Mavericks'
+                startConfetti();
+                message.classList.add('flex')
             }
             if (finalsTeamWest.classList.contains('utah')) {
                 winner.textContent = 'Utah Jazz'
+                startConfetti();
+                message.classList.add('flex')
             }
             if (finalsTeamWest.classList.contains('gsw')) {
                 winner.textContent = 'Golden State Warriors'
+                startConfetti();
+                message.classList.add('flex')
             }
             if (finalsTeamWest.classList.contains('denver')) {
                 winner.textContent = 'Denver Nuggets'
+                startConfetti();
+                message.classList.add('flex')
             }
             if (finalsTeamWest.classList.contains('memphis')) {
                 winner.textContent = 'Memphis Grizzlies'
+                startConfetti();
+                message.classList.add('flex')
             }
             if (finalsTeamWest.classList.contains('minnesota')) {
-                winner.textContent = 'Minnesota Timberwolfes'
+                winner.textContent = 'Minnesota Timberwolves'
+                startConfetti();
+                message.classList.add('flex')
             }
 
         })

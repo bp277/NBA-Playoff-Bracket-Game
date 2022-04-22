@@ -147,31 +147,45 @@ eastFinalsOne.addEventListener('click', () => {
     }})
     
     finalsTeamEast.addEventListener('click', () => {
-        message.classList.add('flex')
-        startConfetti()
         if (finalsTeamEast.classList.contains('miami')) {
             winner.textContent = 'Miami Heat'
+            message.classList.add('flex')
+            startConfetti()
         }
         if (finalsTeamEast.classList.contains('atlanta')) {
             winner.textContent = 'Atlanta Hawks'
+            message.classList.add('flex')
+            startConfetti()
         }
         if (finalsTeamEast.classList.contains('philly')) {
             winner.textContent = 'Philadelphia 76ers'
+            message.classList.add('flex')
+            startConfetti()
         }
         if (finalsTeamEast.classList.contains('toronto')) {
             winner.textContent = 'Toronto Raptors'
+            message.classList.add('flex')
+            startConfetti()
         }
         if (finalsTeamEast.classList.contains('bucks')) {
             winner.textContent = 'Milwaukee Bucks'
+            message.classList.add('flex')
+            startConfetti()
         }
         if (finalsTeamEast.classList.contains('chicago')) {
             winner.textContent = 'Chicago Bulls'
+            message.classList.add('flex')
+            startConfetti()
         }
         if (finalsTeamEast.classList.contains('boston')) {
             winner.textContent = 'Boston Celtics'
+            message.classList.add('flex')
+            startConfetti()
         }
         if (finalsTeamEast.classList.contains('brooklyn')) {
             winner.textContent = 'Brooklyn Nets'
+            message.classList.add('flex')
+            startConfetti()
         }
     })
 

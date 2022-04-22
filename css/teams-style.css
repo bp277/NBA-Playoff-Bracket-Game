@@ -126,7 +126,7 @@
     background-color: #97002E;
     background-image: url(../img/miami.png);
     background-size: 200px 170px;
-    background-position: -4000% 40%;
+    background-position: -3000% 40%;
 }
 .miami::before {
     content: "HEAT";
