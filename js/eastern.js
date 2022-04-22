@@ -178,12 +178,12 @@ eastFinalsOne.addEventListener('click', () => {
     //RESET
 
     reset.addEventListener('click', () => {
-        secondRoundOneEast.classList = ('square')
-        secondRoundTwoEast.classList = ('square')
-        secondRoundThreeEast.classList = ('square')
-        secondRoundFourEast.classList = ('square')
-        eastFinalsOne.classList = ('square')
-        eastFinalsTwo.classList = ('square')
-        finalsTeamEast.classList = ('square-f')
+        secondRoundOneEast.classList = ('square', 'blue')
+        secondRoundTwoEast.classList = ('square', 'blue')
+        secondRoundThreeEast.classList = ('square', 'blue')
+        secondRoundFourEast.classList = ('square', 'blue')
+        eastFinalsOne.classList = ('square', 'blue')
+        eastFinalsTwo.classList = ('square', 'blue')
+        finalsTeamEast.classList = ('square-f', 'blue-f')
         stopConfetti()
     })

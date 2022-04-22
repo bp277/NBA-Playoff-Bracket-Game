@@ -185,13 +185,13 @@ westFinalsOne.addEventListener('click', () => {
         const reset = document.querySelector('.reset-btn')
 
         reset.addEventListener('click', () => {
-            secondRoundOne.classList = ('square')
-            secondRoundTwo.classList = ('square')
-            secondRoundThree.classList = ('square')
-            secondRoundFour.classList = ('square')
-            westFinalsOne.classList = ('square')
-            westFinalsTwo.classList = ('square')
-            finalsTeamWest.classList = ('square-f')
+            secondRoundOne.classList = ('square', 'red')
+            secondRoundTwo.classList = ('square', 'red')
+            secondRoundThree.classList = ('square', 'red')
+            secondRoundFour.classList = ('square', 'red')
+            westFinalsOne.classList = ('square', 'red')
+            westFinalsTwo.classList = ('square', 'red')
+            finalsTeamWest.classList = ('square-f', 'red-f')
             message.classList.remove('flex')
             winner.textContent = ''
             stopConfetti()
