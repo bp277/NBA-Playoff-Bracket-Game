@@ -1,0 +1,242 @@
+.phoenix, .nop, .dallas, .utah, .gsw, .denver, .memphis, .minnesota, .miami, .atlanta, .philly, .toronto, .bucks, .chicago, .boston, .brooklyn {
+    background-size: 110px 110px;
+    background-repeat: no-repeat;
+    background-position: 120%;
+    cursor: pointer;
+}
+
+.phoenix {
+    background-color: #FAA220;
+    background-image: url(../img/phoenix.png);
+}
+.phoenix::before {
+    content: "SUNS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.nop {
+    background-color: #00295D;
+    background-image: url(../img/nop.png);
+}
+.nop::before {
+    content: "PELICANS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.dallas {
+    background-color: #1061AC;
+    background-image: url(../img/dallas.png);
+}
+.dallas::before {
+    content: "MAVS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.utah {
+    background-color: #00471B;
+    background-image: url(../img/utah.png);
+}
+.utah::before {
+    content: "JAZZ";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gsw {
+    background-color: #F1CD00;
+    background-image: url(../img/gsw.png);
+    background-size: 90px 110px;
+}
+.gsw::before {
+    content: "WARRIORS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.denver {
+    background-color: #8C1E2E;
+    background-image: url(../img/denver.png);
+    background-size: 90px 70px;
+}
+.denver::before {
+    content: "NUGGETS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.memphis {
+    background-color: #5D76A9;
+    background-image: url(../img/memphis.png);
+    background-position: 120% 25%;
+    background-size: 90px 110px;
+}
+.memphis::before {
+    content: "GRIZZLIES";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.minnesota {
+    background-color: #004F85;
+    background-image: url(../img/minnesota.png);
+    background-size: 110px 80px;
+}
+.minnesota::before {
+    content: "WOLVES";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.miami {
+    background-color: #97002E;
+    background-image: url(../img/miami.png);
+    background-size: 200px 170px;
+    background-position: -4000% 40%;
+}
+.miami::before {
+    content: "HEAT";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.atlanta {
+    background-color: #CC082F;
+    background-image: url(../img/atlanta.png);
+}
+.atlanta::before {
+    content: "HAWKS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.philly {
+    background-color: #033EA6;
+    background-image: url(../img/philly.png);
+}
+.philly::before {
+    content: "76ERS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.toronto {
+    background-color: #061821;
+    background-image: url(../img/toronto.png);
+    background-size: 100px 110px;
+}
+.toronto::before {
+    content: "RAPTORS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}.bucks {
+    background-color: #274E37;
+    background-image: url(../img/bucks.png);
+    background-size: 100px 110px;
+}
+.bucks::before {
+    content: "BUCKS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.chicago {
+    background-color: #BC022B;
+    background-image: url(../img/chicago.png);
+    background-position: 140% 85%;
+}
+.chicago::before {
+    content: "BULLS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boston {
+    background-color: #007A30;
+    background-image: url(../img/boston.png);
+    background-size: 100px 100px;
+}
+.boston::before {
+    content: "CELTICS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.brooklyn {
+    background-color: #2D2926;
+    background-image: url(../img/nets.png);
+    background-position: 120% 10%;
+}
+.brooklyn::before {
+    content: "NETS";
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
