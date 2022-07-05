@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 body {
     background: #F7F7F7;
+
 }
 .main {
     display: flex;
@@ -51,6 +51,7 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     align-items: center;
+    width: 1870px;
 }
 .matchup {
     display: flex;
@@ -110,13 +111,14 @@ body {
     color: #777;
     list-style: none;
     text-decoration: none;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     border: 1px solid #999;
     border-radius: 10px;
     padding-block: 10px;
     padding-inline: 40px ;
+    position: absolute;
+    left: 858px;
 }
 .flex {
     display: flex;
